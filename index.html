@@ -9,6 +9,7 @@
     <script>if (paidpeople.length  = People.length ){counter = 0}</script>
     <script>person = people[counter]</script>
     <p id="demo"></p>
-  <button>paid</button>
+  <button id = "paid" onclick = addtopaid()>paid</button>
   <script>document.getElementById("demo").innerHTML  = ("<h2>it is "+person+"'s turn<h2>");</script>
+  <script>addtopaid(){paidpeople.append(person)}</script>
 </html>

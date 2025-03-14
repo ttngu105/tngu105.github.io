@@ -9,16 +9,4 @@
     <script>person = people[paidpeople.length]</script>
     <p id="demo"></p>
   <button id = "paid" onclick="myFunction()">paid</button>
-    
-  <script>
-  function myFunction() {
-    console.log("Button clicked!");
-    if (paidpeople.length  >= people.length)
-    {paidpeople = []}
-    console.log(people[paidpeople.length])
-    person = people[paidpeople.length];
-    paidpeople.push(person);
-    document.getElementById("demo").innerHTML  = ("<h2>It is "+person+"'s turn<h2>");
-  }
-  </script>
 </html>

@@ -1,2 +1,2 @@
 var people = ["Emily", "Tommy","Miles"];
-document.getElementById("demo").innerHTML = "<body>"+people[0]+"</body>";
+document.getElementById("demo").innerHTML = "<h2>"+people[0]+"<h2>";

@@ -10,8 +10,7 @@
     {paidpeople = []}</script>
     <script>person = people[paidpeople.length]</script>
     <p id="demo"></p>
-  <script>addtopaid(){paidpeople.append(person)}</script>
-  <button id = "paid" onclick = addtopaid()>paid</button>
+  <button id = "paid" onclick = paidpeople.append(person)>paid</button>
   <script>document.getElementById("demo").innerHTML  = ("<h2>it is "+person+"'s turn<h2>");</script>
   
 </html>

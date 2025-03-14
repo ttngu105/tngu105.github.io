@@ -6,11 +6,19 @@
 <heading>
   <h1>Daq Tracker</h1>
 </heading>
-    <script>if (paidpeople.length  = people.length)
-    {paidpeople = []}</script>
     <script>person = people[paidpeople.length]</script>
-    <script>new fucntion addpaid(ppl){paidpeople.append(ppl);}</script>
     <p id="demo"></p>
-  <button id = "paid" onclick = addpaid(person)>paid</button>
-  <script>document.getElementById("demo").innerHTML  = ("<h2>it is "+person+"'s turn<h2>");</script>
+  <button id = "paid" onclick="myFunction()">paid</button>
+    
+  <script>
+  function myFunction() {
+    console.log("Button clicked!");
+    if (paidpeople.length  >= people.length)
+    {paidpeople = []}
+    console.log(people[paidpeople.length])
+    person = people[paidpeople.length];
+    paidpeople.push(person);
+    document.getElementById("demo").innerHTML  = ("<h2>It is "+person+"'s turn<h2>");
+  }
+  </script>
 </html>

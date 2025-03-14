@@ -1,2 +1,2 @@
 var people = ["Emily", "Tommy","Miles"];
-return var(people[0]);
+document.getElementById("demo").innerHTML = "<body>people[0]</body>";

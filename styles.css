@@ -4,6 +4,9 @@ h1{
 body{
     text-align: center;
 }
-.iframe{
+iframe{
     text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+
 }

@@ -3,10 +3,14 @@ h1{
 }
 body{
     text-align: center;
+    color-scheme: light dark;
+    background-color: Canvas;
+    color: CanvasText;
+    color-scheme: light dark;
 }
-iframe{
+.iframe{
     text-align: center;
 }
-@media (prefers-color-scheme: dark) {
-
-}
+html {
+    --text-color-normal: #0a244d;
+  }
